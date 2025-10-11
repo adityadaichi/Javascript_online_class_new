@@ -54,8 +54,5 @@ console.log(str.lastIndexOf('o'));
 
 
 
-
-
-
 // assignment
 // 1. properties vs methods
