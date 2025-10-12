@@ -1,0 +1,21 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  --webkit-font-smoothing:antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+body{
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  height:100vh;
+  background-color:black;
+}
+
+h1{
+  text-align:center;
+  font-size:38px;
+  color:white;
+}
