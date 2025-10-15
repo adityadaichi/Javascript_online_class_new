@@ -1,0 +1,22 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  --webkit-font-smoothing:antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+body{
+  height:100vh;
+  background-color: black;
+  width:100%;
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  color:white;
+}
+
+h1{
+  font-size:40px;
+  font-weight:bold;
+}
