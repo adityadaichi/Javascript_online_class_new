@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Operators</title>
+    <script src="app.js" defer></script>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: aliceblue;
+        }
+
+        section {
+            height: 100vh;
+            display: flex;
+
+        }
+
+        .main-div {
+            margin: auto;
+            overflow: hidden;
+            /* border: 2px solid red; */
+            background-color: rgb(255, 255, 255);
+            display: flex;
+            justify-content: center;
+            border-radius: 30px;
+        }
+
+
+        .left-image img {
+            display: block;
+        }
+
+        .right-form {
+            align-self: center;
+            margin: 0 30px;
+        }
+
+        .right-form form {
+            width: 300px;
+            font-size: 19px;
+            /* border: 2px solid red; */
+        }
+
+        .right-form form input {
+            height: 40px;
+            width: 100%;
+            padding: 0 10px;
+            margin-bottom: 10px;
+            font-size: 15px;
+        }
+
+        .right-form form input:focus {
+            outline: none;
+        }
+
+        .right-form form label {
+            display: block;
+            padding-bottom: 6px;
+        }
+
+
+        .right-form form input[type="submit"] {
+            height: 40px;
+            width: 110px;
+            margin-bottom: 0px;
+            background-color: rgb(238, 170, 12);
+            color: #fff;
+            font-size: 18px;
+            border: none;
+        }
+
+        .action-btn {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <div class="main-div">
+            <div class="left-image">
+                <img src="https://media.istockphoto.com/id/1221154640/photo/the-sun-shining-through-the-trees-of-a-park.jpg?s=612x612&w=0&k=20&c=FATUB_nw6IjkoOwo3GFQHsdCRpHmZr_26n6aX1TEC5I="
+                    alt="">
+            </div>
+            <div class="right-form">
+                <form action="">
+                    <label for="email">Email</label>
+                    <div>
+                        <input type="email" name="email" id="email" placeholder="Enter your email" value="" required>
+                    </div>
+                    <label for="pasword">Password</label>
+                    <div>
+                        <input type="password" name="password" id="p">
+                    </div>
+                    <div class="action-btn">
+                        <input type="submit">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>
